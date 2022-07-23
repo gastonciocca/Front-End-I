@@ -1,0 +1,18 @@
+/*Variables*/
+/*SCSS*/
+#container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3d7182;
+}
+#container-flex .boton-primario {
+  background-color: #3d7182;
+  font-size: 24px;
+  padding: 18px;
+}
+#container-flex .boton-secundario {
+  background-color: #e8e8e8;
+}/*# sourceMappingURL=main.css.map */

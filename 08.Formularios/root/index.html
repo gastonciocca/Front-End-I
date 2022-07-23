@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Heroes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+       
+    </header>
+
+    <!-- delimitacion -->
+    <section id="formulario">
+
+        <h2>Añadì tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones </p>
+
+        <!-- captura de datos-->
+        <form action="./Form Personajes/" method="POST">
+                  
+        <!-- Columna Izquierda -->
+            <fieldset id="left">
+                <label for="nombre">*Nombre</label>  
+                <input type="text" name="datosNombre" id="nombre" required>
+
+                <label for="fecha">Fecha</label>  
+                <input type="date" name="datosNombre" id="nombre" value="2022-03-01">
+
+                <label for="descripcion"></label>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Ingresá la descripción de tu super"></textarea>
+
+            </fieldset>
+    
+            <fieldset>
+                <label for="especie">*Especie</label>
+                <select name="especie">
+                    <option value="Humano">Humano</option>
+                    <option value="Animal">Animal</option>
+                    <option value="Extraterrestre">Extraterrestre</option>
+                    <option value="Mutante">Mutante</option>
+                </select> 
+
+                <label for="fotoSuper">Agregar foto</label>
+                <input type="file" name="fotoSuper" id="fotoSuper">
+
+                <label for="checkPoderes">Poderes
+                    <input type="checkbox" name="poderes" id="Volar" value="Volar"><label for="Volar">Volar</label>
+                    <input type="checkbox" name="poderes" id="SuperInteligencia" value="Superinteligencia"><label for="SuperInteligencia">Superinteligencia</label>
+                    <input type="checkbox" name="poderes" id="Laser" value="VistaRayoLaser"><label for="Laser">Vista de rayo laser</label>
+                    <input type="checkbox" name="poderes" id="billetera" value="BilleteraGorda"><label for="billetera">Billetera gorda</label>
+                </label>
+
+                <hr>
+
+                <label for="radioPoderes">Tipo de personaje
+                    <input type="radio" name="TipoPersonaje" id="Heroe" value="bueno"> <label for="Heroe">Heroe / Heroina</label>
+                     <input type="radio" name="TipoPersonaje" id="Villano" value="malo"> <label for="Villano">Villano / Villana</label>
+                   
+                  
+            </fieldset>
+
+            <!-- Botón -->
+            <button type="submit">Añadir</button>
+            
+        </form>
+    </section>
+</body>
+
+</html>

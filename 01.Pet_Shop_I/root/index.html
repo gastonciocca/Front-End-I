@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="barra-sup-inicial">
+            <p>Grandes ofertas en comederos</p>
+            <article>
+                <select name="Idioma">
+                    <option value="Español">Español</option>
+                    <option value="Inglés">Inglés</option>
+                </select>
+
+                <select name="Moneda">
+                    <option value="ARG">ARG$</option>
+                    <option value="USD">USD</option>
+                </select>
+            </article>    
+        </div>  
+
+        <div class="barra-superior-secundaria">
+            <section class="logo">
+                <img src="./img/Cat.png" alt="gato">
+                <h1>Front<span>Cat&Dog</span></h1>
+                <img src="./img/Dog.png" alt="perro">
+            </section>
+        
+
+            <section>
+
+                <nav>
+                <ul>
+                    <li> <img src="./img/pawprint 1.png" alt="huellaChica"> Categoría</li>
+                    <li> <img src="./img/pawprint 1.png" alt="huellaChica"> Pets</li>
+                    <li> <img src="./img/pawprint 1.png" alt="huellaChica"> Nosotros</li>
+                    <li> <img src="./img/pawprint 1.png" alt="huellaChica"> Contactanos</li>
+                </ul>
+                </nav>
+
+        </section>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="banner">
+            <article>   
+                <h4>¡Es un placer tenerte aquí! </h4>
+
+                <h5>¡Comederos en descuento!</h5>
+
+                <button>COMEDEROS</button>
+            </article>
+        </section>
+
+        <section>
+            <img src="./img/pata grande.png" alt="pawprintGrande">
+            <h2>Productos Destacados</h2>
+
+            <span>Comederos -</span>
+            <span>Accesorios -</span>
+            <span>Comida</span>
+
+            <article>
+
+                <img src="./img/churrasquito.png" alt="churrasco">
+                <span>Juguete Churrasquito</span>
+                <span>$150</span>
+
+            </article>
+
+            <article>
+                
+                <img src="./img/comedero.png" alt="comedero">
+                <span>Comedero para perro</span>
+                <span>$250</span>
+
+            </article>
+
+            <article>
+                
+                <img src="./img/Huesito.png" alt="huesito">
+                <span>Juguete Huesito</span>
+                <span>$650</span>
+
+            </article>
+  
+        </section>
+
+        <section>
+            <h2>Contactanos</h2>
+            <!-- Captura datos form contacto-->
+            <form action="./Contacto/" method="post">
+                <fieldset>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="datosNombre" id="nombre">
+
+                    <label for="email">Ingresá tu correo electrónico</label>
+                    <input type="email" name="datosEmail" id="email">
+
+                    <label for="tel">Teléfono</label>
+                    <input type="number" name="datosTel" id="tel">
+                </fieldset>
+                <!-- Botones -->
+                <button type="reset">Resetear </button>
+                <button type="submit">Enviar </button>
+
+            </form>
+
+
+        </section>
+        <section>
+            <img src="./img/enviar-correo 1.png" alt="enviarEmail">
+            <p>Suscríbete para más novedades</p>
+
+            <form action="./Newsletter/" method="post">
+                <label for="email-2">Ingresá tu correo electrónico</label>
+                <input type="email" name="datosEmailNewsletter" id="email-2">
+                <button type="submit">Suscibirme </button>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <img src="./img/Cat.png" alt="gato">
+            <span>FrontCat&Dog</span>
+            <img src="./img/Dog.png" alt="perro">
+
+        </section>  
+
+        <section>
+            <article>
+                <img src="./img/Icono ubicacion.png" alt="ubicacion">
+                <span>Localidad</span>
+                <span>Calle - provincia</span>
+            </article>
+
+            <article>
+                <img src="./img/Icono telefono.png" alt="telefono">
+                <span>Teléfono</span>
+                <span>Número de Teléfono</span>
+            </article>
+
+            <article>
+                <img src="./img/Icono mail.png" alt="mail">
+                <span>Correo electrónico</span>
+                <span>Dirección de correo</span>
+            </article>
+
+        </section>
+
+        <section>
+            <p>Todos los derechos reservados Front End</p>
+        </section>
+
+    </footer>
+    
+</body>
+</html>

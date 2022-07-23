@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.container-padre {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.container-padre .card {
+  background-color: rgb(121, 121, 121);
+  height: 400px;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #c7c7c7;
+  box-shadow: 20px 20px 60px #a9a9a9, -20px -20px 60px #e5e5e5;
+  transition: all 0.75s;
+}
+.container-padre .card:hover {
+  border-radius: 50px;
+}
+
+/* importo el archivo flexcards */
+/* USO DE PARTIALS -> BLOQUE DE CODIGO QUE YO PIENSO REUTILIZAR EN OTROS PROYECTOS */
+/* VARIABLES */
+/* MIXIN - agrupación de estilos en la hoja de estilos*/
+img {
+  width: 5rem;
+  border-radius: 5px;
+  filter: blur(50px);
+}
+
+/* APLICANDO MIXIN */
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 40px;
+  color: #82f4bf;
+  text-align: center;
+  font-style: italic;
+  -webkit-animation: slide-right 1s ease-in;
+          animation: slide-right 1s ease-in;
+}
+
+body {
+  background-color: #c7c7c7;
+}/*# sourceMappingURL=mainsass.css.map */

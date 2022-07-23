@@ -1,0 +1,43 @@
+#formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+button{
+border: none;
+background-color: aquamarine;
+padding:15px;
+width: 300px;
+font-size: 24px;
+border-radius: 15px;
+font-weight: 800;
+}
+
+button:hover{
+background-color: gray;
+color: white;
+cursor: pointer;
+
+
+}
+
+button:active {
+    box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+    -webkit-box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+    -moz-box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+
+}
+
+textarea:focus{
+    box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+    -webkit-box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+    -moz-box-shadow: -15px -21px 0px 2px rgba(0,0,0,0.93);
+
+}
+

@@ -1,0 +1,647 @@
+/** Comentrios previos 
+
+Pantalla desktop: 1440 
+Diseño base tomado de FIGMA (margenes, separaciones, colores, fondos)
+**/
+
+/********************** Normalizacion CSS ********************/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif; /*En google font no me figura BE Vietnam, solo me aparece BE VIETNAM PRO */
+}
+
+/************************** HEADER ******************************/
+
+header  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+      
+}
+
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    margin-left: 28px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(36, 46, 82, 1)
+
+}
+
+#get-started {
+    color:#FFFFFF;
+    font-weight: 500;
+    font size: 13px;
+    background-color: rgba(243, 96, 59, 1);
+    padding:12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+#menu-hamburguesa {
+    display: none;
+    }
+    
+
+/*************************** MAIN ***************************/
+
+/**** Inicio Section Intro *****/
+
+main section.intro{
+    display:flex;
+    margin-top:28px;
+    margin-right: 165px;
+    margin-left: 165px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section article.text-intro{
+    display: flex;
+    margin-top: 71px;
+    margin-bottom: 85px;
+    width: 440px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+ 
+}
+
+main h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    color:rgba(35, 44, 80, 1);
+}
+
+main h4 {
+    margin-top: 28px;
+    font-weight: 500;
+    font-size: 16;
+    width: 350px;
+}
+
+main section article.text-intro a {
+    margin-top: 28px;
+    }
+
+/*** Fin Section Intro ****/
+
+
+/*** Inicio Section Pros ***/
+
+main section.pros {
+    display: flex;
+    margin-right: 165px;
+    margin-left: 165px;
+    margin-top:129px;
+    justify-content:space-around;
+}
+
+.pros-different{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 433px;
+    
+} 
+
+.pros-different h2{    
+    font-weight: 700;
+    font-size: 36px;
+    color:rgba(35, 40, 81, 1);
+}   
+
+.pros-numeros{
+    display: flex;
+    flex-direction: column;
+}
+
+.columna {
+    display: flex;
+    color: #FFFFFF; 
+    width: 529px;
+    margin-bottom: 27px;
+
+}   
+
+span.numeros{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgba(243, 96, 59, 1);
+    padding:12px 30px;
+    border-radius: 50px;
+    
+}   
+
+.numeros-text {
+    margin-left: 23px;
+    left: 0px;
+}   
+
+.pros-numeros h5{
+    font-weight: 700;
+    font-size: 16px;
+    color:rgba(50, 56, 81, 1);
+}   
+
+.pros-numeros p{
+    margin-top:18px;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(179, 178, 183, 1);
+}   
+
+.review{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 124px;
+} 
+
+.review h2{
+    font-weight: 700;
+    font-size: 39px;
+    color:rgba(36, 46, 83, 1);
+    margin-bottom: 74px;
+    
+  } 
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 71px;
+    margin-right: 71px;
+    margin-top: 74px;
+    margin-bottom: 45px;
+   } 
+
+.contenedor-cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:445px;
+    height: 219px;
+    background-color:rgba(250, 250, 250, 1);
+}
+
+.contenedor-cards-Ali-mobile {
+    display: none;
+}
+
+.contenedor-cards img{
+    position: absolute;
+    top: -45px;
+    width: 70px;
+    height: 70px;
+    left:187px;
+}
+
+.contenedor-cards h6{
+    font-weight: 700;
+    font-size: 16px;
+    color:rgba(63, 72, 104, 1);
+}
+
+.contenedor-cards p{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(185, 185, 193, 1);
+}
+
+.claim {
+background-color: rgba(243, 97, 60, 1);
+height: 224px;
+width: 100vw;
+margin-top: 180px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.claim h3 {
+    width: 438px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 35px;
+    color:#FFFFFF;
+    text-align: left;
+    
+}
+
+.claim #get-started {
+    color:#F3603B;
+    background-color: #FFFFFF;
+}
+
+/*************************** FOOTER *****************************/
+
+footer {
+    background-color:rgba(30, 30, 38, 1) ;
+    width: 100vw;
+    height: 247px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer section.logo-redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 170px;
+    height: 141px;
+}
+
+
+.redes img{
+    margin: 8px;
+}
+
+footer section.a-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 392px;
+    height: 141px;
+}
+
+
+footer section.a-footer article{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+footer section.a-footer article.a-izq{
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+footer section.a-footer article.a-der{
+    display:flex;
+    justify-content: flex-start;
+    
+}
+
+footer section.a-footer article.a-der a{
+margin-bottom: 12px;
+}
+
+
+footer section.a-footer article a{
+    text-decoration: none;
+    font-weight: 400;
+    font size: 16px;
+    color: #FFFFFF;
+}
+
+footer section.form-copyright {
+    margin-right: 164px;
+    height: 141px;
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}   
+
+#formulario-boton form {
+display: flex;
+justify-content: space-between;
+}
+
+#formulario-boton form input {
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    width: 201px;
+    height: 44px;
+    text-align: center;
+}
+
+footer button {
+    color:#FFFFFF;
+    font-weight: 500;
+    font size: 13px;
+    background-color: rgba(243, 96, 59, 1);
+    padding:11px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.copyright{
+    font-size: 12px;
+    color: rgba(140, 140, 148, 1);
+}
+
+.copyright-mobile {
+    display: none;
+}
+/******************* pseudoclases y pseudoelementos ************************/
+
+header nav ul li a:hover {
+    color: #a5a5bd;
+}
+
+.a-footer a:hover{
+    color: #F3603B;
+}
+
+.redes img:hover {
+    cursor: pointer;
+    background-color: #F3603B; /*al ponerlos como imagenes, no puedo usar la propiedad color ya que no son iconos*/
+    transform: scale(1.5); /*este va de yapa */
+}
+
+
+
+/**************************** RESPONSIVE ********************/
+/* Esta parte me costó un montón pero algo salió. 
+Agradecido por tus clases Vic porque no puedo creer lo que logré en tan poco tiempo, comenzando de 0. 
+Notables tus clases Vic, gracias!! */
+
+@media (max-width:376px) {
+     * { 
+    margin:0px;
+    
+        }
+        /************* HEADER RESPONSIVE**************/
+    header {
+        
+        padding: 45px 0px;
+        }
+
+     nav { 
+        display: none;
+        }
+
+    #menu-hamburguesa {
+        display:block;
+        font-size:25px;
+        transform: translateY(-5px);
+
+        }
+    
+    header #get-started { 
+        display: none;
+        }
+
+        /*************** MAIN RESPONSIVE******************/   
+
+    main section.intro{
+        flex-direction: column-reverse;
+        align-items: center;   
+        max-width: 375vw;
+        margin: 0px;
+        } 
+
+    main section.intro img {
+        max-width: 375px;
+    }
+
+    
+    main section article.text-intro{
+        max-width: 375px;
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+        }
+
+    main section article.text-intro h1{
+            font-size: 35px;
+        }
+
+    .text-intro h4{
+        width: 300px;
+        margin-left: 35px;
+    }    
+
+    main section article.text-intro a{
+        margin-left: 100px;
+        margin-bottom: 40px;
+        }    
+
+    main section.pros {
+        max-width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:40px;
+        margin-top: 0px;
+        }
+
+    .pros-different {
+        max-width:300px;
+    }    
+    
+    .pros-different h2{    
+        width: 300px;
+        text-align: center;
+    }   
+
+    .pros-different h4{
+        width: 270px;
+        text-align: center;
+        font-size: 14px;
+        }  
+
+        /* acà es cuando no quise tocar más para no romper, odié esta parte de acá abajo :) */
+    .pros-numeros{
+        max-width: 300px;
+        transform: scale(0.8);
+    }
+
+    .columna {
+        max-width: 300px;
+    }
+
+    
+    .numeros-text {
+        max-width: 223px;
+    }    
+
+    .numeros-text h5 {
+        font-size: 14px;    
+    }
+
+    .numeros-text p{
+        width: 300px;
+       transform:translateX(-50px);
+    }
+                                    /* fin parte odiosa */
+                                    
+    main section.review {
+        flex-direction: column;
+        }
+      
+    .contenedor-cards {
+        display: none;
+    }
+
+    .contenedor-cards-Ali-mobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: space-evenly;
+        width:375px;
+        background-color:rgb(233, 232, 232);
+        height: 300px;
+         }
+
+    .foto-ali-mobile{
+        position: absolute;
+        top: -45px;
+        width: 70px;
+        height: 70px;
+        }
+
+    .contenedor-cards-Ali-mobile h6 {
+        font-size: 14px;
+        margin-bottom: 0px;
+
+    }
+
+    .contenedor-cards-Ali-mobile p{
+        text-align: center;
+        margin: 0px 40px;
+        }
+  
+
+.foto-carrousel-mobile{
+        position: absolute;
+        bottom: -20px;
+        width: 56px;
+        height: 11px;
+    
+    }
+
+    .claim{
+    flex-direction: column-reverse;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.claim h3{
+    order: calc(1);
+    width:300px;
+    text-align: center;
+}
+
+
+
+    /****************** FOOTER RESPONSIVE *************/
+
+    footer {
+        width: 375px;
+        height: 520px;
+        flex-direction: column;
+        
+    }
+    
+
+    #formulario-boton {
+        order: calc(1); 
+        margin-left: 120px;
+        margin-top: 40px;
+        
+    }
+
+    #formulario-boton form input {
+        transform: translateX(-50px);
+        padding-right: 70px;
+        padding-left: 10px;
+        text-align: right;
+    }
+
+    #formulario-boton form button {
+        transform: translateX(-40px);
+        padding: 11px 30px;
+        
+    }
+
+    .a-footer{
+        display: flex;
+        max-width: 250px;
+        order: calc(2);
+        margin-left: 25px;
+        margin-top: 0px;
+        margin-bottom: 20px;        
+    }
+
+    .logo-redes{
+        order:calc(3);
+        margin-right: 185px;
+        margin-top: 20px;
+        width: 300px;
+        flex-direction: column-reverse;
+        
+    }
+
+    .logo-footer{
+        flex:2; order: 2;
+    }
+
+    .redes{
+    flex:2; order: 1;
+    transform: scale(1.5);    
+    }
+    
+    
+    .form-copyright {
+        height: 17px;
+        margin-top: 0px;
+    }
+
+    .form-copyright input{
+    border-radius: 50px;
+    border: none;
+    width: 201px;
+    height: 44px;
+    text-align: center;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+.copyright-mobile {
+        display: block;
+        font-size: 12px;
+        color: rgba(140, 140, 148, 1);
+        order: calc(5);
+        margin-bottom: 20px;
+        
+    }    
+
+}

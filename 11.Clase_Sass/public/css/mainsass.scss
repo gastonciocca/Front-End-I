@@ -1,0 +1,42 @@
+/* importo el archivo flexcards */
+/* USO DE PARTIALS -> BLOQUE DE CODIGO QUE YO PIENSO REUTILIZAR EN OTROS PROYECTOS */ 
+@use "_flexcards.scss";
+@use "_animations.scss";
+
+/* VARIABLES */
+
+$colorFont: #82f4bf;
+$tamanioCards: 19vw;
+$tamanioLetra: 24px;
+
+/* MIXIN - agrupación de estilos en la hoja de estilos*/
+
+@mixin parrafodevic  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    color: $colorFont; 
+    text-align: center;
+    font-style: italic;
+}
+
+@mixin imagenes {
+    width: 5rem;
+    border-radius: 5px;
+    filter: blur(50px);
+}
+
+img {
+    @include imagenes;
+}
+/* APLICANDO MIXIN */
+
+p {
+    @include parrafodevic;
+    animation: slide-right 1s ease-in;
+}
+
+
+body {
+    background-color: #c7c7c7;
+}

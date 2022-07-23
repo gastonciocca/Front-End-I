@@ -1,0 +1,34 @@
+$maincolor:rgb(135, 206, 230);
+$maincolordisable: rgb(170, 170, 170);
+
+
+@mixin boton {
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border: 2px solid $maincolor;
+    padding: 10px;
+    color: white;
+    
+}
+
+button {
+    @include boton;
+}
+
+.button {
+        &-primary {
+            background-color: $maincolor;
+        }
+        &-secondary {
+        
+            background-color: rgba (0,0,0,0);
+            border-color: $maincolor;
+            color: $maincolor;    
+        }
+        &-disable {
+            background-color: $maincolordisable;
+            border-color: $maincolordisable ;
+        }
+    }

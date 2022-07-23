@@ -1,0 +1,33 @@
+/*Variables*/
+
+$color-primario: #3d7182;  
+$color-secundario: #e8e8e8;
+
+$size-primario: 24px;
+$size-secundario: 18px;
+
+$fuente-primaria: 'Arial';
+
+
+
+/*SCSS*/
+
+
+#container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $color-primario;
+    .boton-primario {
+        background-color: $color-primario;
+        font-size: $size-primario;
+        padding: $size-secundario;
+    }
+    .boton-secundario {
+        background-color: $color-secundario;
+        
+    }
+}
+

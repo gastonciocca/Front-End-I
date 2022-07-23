@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/******************************************* HEADER ****************************/
+header {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.barra-sup-inicial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 20px;
+    background-color:rgba(34, 34, 34, 1) ;
+}
+
+header p{
+    margin-left: 50px;
+    color: white;
+}
+
+header article select{
+    margin-right: 40px;
+    color: white;
+    background-color: black;
+}
+
+.barra-superior-secundaria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(240, 168, 62, 1);
+    height: 62px;
+    padding: 10px 40px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+
+}
+
+.logo img{
+    Width: 19px;
+    height: 19px;
+
+}
+
+header div h1{
+    color: rgba(60, 35, 19, 1)
+
+}
+
+header div h1 span{
+    color: rgba(255, 255, 255, 1);
+}
+
+header nav ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+header nav ul li{
+    margin-left: 15px; 
+}
+
+/******************************************* MAIN ****************************/
+
+main section.banner {
+height: calc(100vh - 164px);
+background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+margin: 
+}
+
+main section.banner article{
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+main section.banner article h4{
+    font-size: 30px;
+    background-color: #FFFFFF;
+    color:rgba(60, 35, 19, 1);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    }
+
+    main section.banner article h5{
+        font-size: 16px;
+        color:rgba(60, 35, 19, 1);
+        margin-bottom: 20px;
+    }
+
+    main section.banner article button{
+        font-size: 16px;
+        background-color: rgba(240, 168, 62, 1);
+        color:#FFFFFF ;
+        padding: 25px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }

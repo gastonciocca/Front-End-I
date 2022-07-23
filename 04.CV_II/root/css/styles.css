@@ -1,0 +1,41 @@
+body {
+    background-color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    color: #7CFC00;
+}
+
+.top { 
+    background-image: url('https://us.123rf.com/450wm/a3701027/a37010271504/a3701027150401302/39310632-matrix-sfondo-con-i-simboli-verdi-concetto-di-prospettiva.jpg');
+    background-size:contain;
+    color: #7CFC00;
+
+}
+
+
+
+#nombre {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.subtitulos {
+    text-align: left;
+    font-size: 24px;
+    font-weight:800;
+    text-decoration: underline;
+}
+
+#linkedin{
+    background-image: url('https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#instagram{
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    back
+}

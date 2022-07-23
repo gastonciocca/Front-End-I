@@ -1,0 +1,53 @@
+#header-home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(244, 165, 96, 0.733);
+    box-shadow: 1px 3px 24px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 3px 24px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 24px -6px rgba(0,0,0,0.75);
+    border-radius: 5px;
+   /** HEIGHT PARA QUE TENGA UN ALTO DETERMINADO **/ 
+   height: 40px;
+}
+
+#menu{
+    display: none;
+
+
+}
+
+nav{
+    width: 40%;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width:700px) {
+    nav { 
+        display: none;
+
+        }
+
+    #header-home {
+        flex-direction: row-reverse;
+                }
+    #menu {
+        display: block;
+          }
+
+                        }
